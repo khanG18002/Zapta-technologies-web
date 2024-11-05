@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.service-card {
+    background-image: url('./assets/images/Bg-img.webp');
+}
+
+.team-Bg{
+    background-image: url('./assets/images/.team-Bg');
+}
+
+.scroll-card{
+    background-image: url('./assets/images/Bg-img.webp');
+}
+

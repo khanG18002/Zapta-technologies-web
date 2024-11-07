@@ -1,10 +1,10 @@
-import React from 'react';
-import Card from './card'; // Ensure to update the path as per your file structure
+import React from "react";
+import Card from "./card"; // Ensure to update the path as per your file structure
 
 const OurServices = () => {
   const cardsData = [
     {
-      imageUrl: "./src/assets/images/Vector1.svg",
+      imageUrl: "./src/assets/images/vector1.webp",
       title: "UI UX Design",
       text: "Crafting a data-driven and user centered UI UX to provide the greatest user experience and satisfaction",
     },
@@ -38,7 +38,6 @@ const OurServices = () => {
       title: "Graphic Design",
       text: "Creating visually appealing graphics for your brand.",
     },
-    
   ];
 
   return (

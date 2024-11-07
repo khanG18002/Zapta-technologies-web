@@ -7,7 +7,11 @@ import DevelopmentProcess from "./DevelopmentProcess";
 import OurExperts from "./OurExperts";
 import CaseStudies from "./CaseStudies";
 import Awards from "./Awards";
-
+import GetMessage from "./GetMessage";
+import Apply from "./Apply";
+///
+///wedothis
+///
 const Home = () => {
   return (
     <div>
@@ -19,6 +23,8 @@ const Home = () => {
       <OurExperts />
       <CaseStudies />
       <Awards />
+      <GetMessage />
+      <Apply />
     </div>
   );
 };

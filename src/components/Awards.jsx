@@ -14,27 +14,32 @@ const Awards = () => {
       </div>
 
       {/* Parent div have the awards image */}
-      <div className="flex pt-14 ">
-        <div className="">
-          <img src="./src/assets/images/Award1.webp" alt="award" />
+      <div className="pt-14 ">
+        <div className="flex justify-center gap-16">
+          <div className="h-40 w-40">
+            <img src="./src/assets/images/Award1.webp" alt="award" />
+          </div>
+          <div className="h-40 w-40">
+            <img src="./src/assets/images/Award2.webp" alt="award" />
+          </div>
+          <div className="h-40 w-40">
+            <img src="./src/assets/images/Award3.webp" alt="award" />
+          </div>
+          <div className="h-40 w-40">
+            <img src="./src/assets/images/Award4.webp" alt="award" />
+          </div>
         </div>
-        <div className="flex">
-          <img src="./src/assets/images/Award2.webp" alt="award" />
-        </div>
-        <div className="flex">
-          <img src="./src/assets/images/Award3.webp" alt="award" />
-        </div>
-        <div className="flex">
-          <img src="./src/assets/images/Award4.webp" alt="award" />
-        </div>
-        <div className="flex">
-          <img src="./src/assets/images/Award5.webp" alt="award" />
-        </div>
-        <div className="flex">
-          <img src="./src/assets/images/Award6.webp" alt="award" />
-        </div>
-        <div className="flex">
-          <img src="./src/assets/images/Award7.webp" alt="award" />
+
+        <div className="flex justify-center gap-16 pt-20 ">
+          <div className="h-40 w-40">
+            <img src="./src/assets/images/Award5.webp" alt="award" />
+          </div>
+          <div className="h-40 w-40">
+            <img src="./src/assets/images/Award6.webp" alt="award" />
+          </div>
+          <div className="h-40 w-40">
+            <img src="./src/assets/images/Award7.webp" alt="award" />
+          </div>
         </div>
       </div>
     </div>

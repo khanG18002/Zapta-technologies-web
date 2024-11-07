@@ -1,10 +1,8 @@
-import React , {useState} from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
 
 const Navbar = () => {
   return (
-
     <nav className="bg-transparent fixed z-10 bg-black text-white w-full  px-8 py-4 ">
       <div className="flex items-center justify-between">
         {/* parent div for Navbar  */}
@@ -37,7 +35,6 @@ const Navbar = () => {
               Careers
             </Link>
           </div>
-
           {/* button */}
           <div className="">
             <button className="bg-customBlue rounded-md h-10 w-32 hover:bg-white transitoin duration-[1.5s] hover:text-customBlue ">

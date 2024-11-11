@@ -2,7 +2,7 @@ import React from "react";
 import HomeImg from "./HomeImg";
 import OurServices from "./OurServices";
 import OurServicesText from "./OurServicesText";
-import OurTeam from "./OurTeam";
+import CEOmessage from "./CEOmessage";
 import DevelopmentProcess from "./DevelopmentProcess";
 import OurExperts from "./OurExperts";
 import CaseStudies from "./CaseStudies";
@@ -18,7 +18,7 @@ const Home = () => {
       <HomeImg />
       <OurServicesText />
       <OurServices />
-      <OurTeam />
+      <CEOmessage />
       <DevelopmentProcess />
       <OurExperts />
       <CaseStudies />

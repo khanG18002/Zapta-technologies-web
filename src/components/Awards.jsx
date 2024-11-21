@@ -14,7 +14,7 @@ const Awards = () => {
       </div>
 
       {/* Parent div have the awards image */}
-      <div className="pt-14 ">
+      <div className=" pt-14 ">
         <div className="flex justify-center gap-16">
           <div className="h-40 w-40">
             <img src="./src/assets/images/Award1.webp" alt="award" />
@@ -30,7 +30,7 @@ const Awards = () => {
           </div>
         </div>
 
-        <div className="flex justify-center gap-16 pt-20 ">
+        <div className="flex justify-center gap-16 md:pt-20 ">
           <div className="h-40 w-40">
             <img src="./src/assets/images/Award5.webp" alt="award" />
           </div>

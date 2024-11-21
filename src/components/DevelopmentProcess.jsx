@@ -94,13 +94,15 @@ const DevelopmentProcess = () => {
         </p>
       </div>
 
-      <div className="flex  items-center gap-8 overflow-auto h-[25rem] bg-slate-600 rounded-xl">
+      <div className="flex items-center overflow-auto scrollbar-hide animate-scroll">
         {Card2Data.map((card2, index) => (
           <Card2 key={index} {...card2} />
         ))}
       </div>
-    </div>
+    </div >
   );
 };
 
 export default DevelopmentProcess;
+
+

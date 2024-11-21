@@ -2,56 +2,12 @@ import React from "react";
 
 const GetMessage = () => {
   return (
-    <div className="relative">
-      {/* image */}
-      <div className="absolute ml-3 mt-48 bg-customDarkBlue w-[25rem] ">
-        <div className="relative">
-          <img
-            className="h-[40rem] "
-            src="./src/assets/images/Offices.webp"
-            alt=""
-          />
-          {/* text */}
-          <div className="absolute text-white top-0 pt-6 pl-8">
-            <h1 className="text-3xl">Offices</h1>
-            {/* USA */}
-            <div className="pt-8 px-5">
-              <h1 className="text-2xl font-bold text-customLightBlue2">
-                Canada
-              </h1>
-              <p className="tracking-tight">
-                W11133 Shady Trail PMB 205 Dallas, TX 75229
-              </p>
-            </div>
-
-            {/* USA */}
-            <div className="pt-8 px-5">
-              <h1 className="text-2xl font-bold text-customLightBlue2">
-                Pakistan
-              </h1>
-              <p className="tracking-tight">
-                West Tower, 371 Deansgate, Manchester M15 4UP, United Kingdom{" "}
-              </p>
-            </div>
-
-            {/* USA */}
-            <div className="pt-8 px-5">
-              <h1 className="text-2xl font-bold text-customLightBlue2">USA</h1>
-              <p className="tracking-tight">
-                61-51 26B St, Jumeirah - Jumeirah 2 - Dubai - United Arab
-                Emirates{" "}
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div className="">
       {/* Parent div Having 2 div  */}
-      <div className="flex h-[60rem]">
-        {/* first section (image) */}
-        <div className="bg-customBlue2 w-[40%]"></div>
+      <div className=" ">
 
         {/* Second section Message section */}
-        <div className="bg-customLightGray  w-full">
+        <div className="bg-customLightGray ">
           {/*  */}
           <div className="pl-16 pt-20 ">
             <h1 className="font-bold text-5xl">
@@ -61,7 +17,7 @@ const GetMessage = () => {
             <p className="pt-6 font-light"> I am looking to </p>
 
             {/* div for 4 option */}
-            <div className="flex font-semibold gap-8 pt-4">
+            <div className="grid grid-cols-2  md:flex gap-4 pt-3 px-6">
               {/* 1 */}
               <p
                 className="border border-black px-4 py-1 rounded-2xl"
@@ -100,11 +56,18 @@ const GetMessage = () => {
               </p>
             </div>
 
+
+
+
+
+
             {/* div for 11 option */}
-            <div className="font-semibold">
+            <div className="">
+
               <p className="pt-10 font-light"> Service I need </p>
+
               {/* having 5 optioin */}
-              <div className="flex gap-5 pt-4">
+              <div className="grid grid-cols-2  md:flex gap-4 pt-3 px-6">
                 {/* 1 */}
                 <p
                   className="border border-black px-4 py-1 rounded-2xl"
@@ -141,19 +104,14 @@ const GetMessage = () => {
                   }}>
                   Mobile Development
                 </p>
-                {/* 5 */}
-                <p
-                  className="border border-black px-4 py-1 rounded-2xl"
-                  onClick={(e) => {
-                    e.target.classList.toggle("bg-customBlue");
-                    e.target.classList.toggle("text-white");
-                  }}>
-                  Mobile D
-                </p>
+
               </div>
 
+
+
+
               {/*Second having 4 optioin */}
-              <div className="flex gap-4 pt-4">
+              <div className="grid grid-cols-2  md:flex gap-4 pt-3 px-6">
                 {/* 1 */}
                 <p
                   className="border border-black px-4 py-1 rounded-2xl"
@@ -193,7 +151,7 @@ const GetMessage = () => {
               </div>
 
               {/*Second having 5 optioin */}
-              <div className="flex gap-5 pt-4">
+              <div className="grid grid-cols-2  md:flex gap-4 pt-3 px-6">
                 {/* 1 */}
                 <p
                   className="border border-black px-4 py-1 rounded-2xl"
@@ -218,7 +176,7 @@ const GetMessage = () => {
             {/*Parent div => Form (Name ,Email , Estimated Budget and Message) */}
             <div className=" pt-10 ">
               <form>
-                <div className="flex justify-start gap-20 items-center">
+                <div className="grid grid-cols-2 md:flex justify-start gap-10 items-center">
                   {/* Name */}
                   <label>
                     <p>
@@ -227,7 +185,7 @@ const GetMessage = () => {
                     <input
                       type="text"
                       placeholder="Muhammad Awais "
-                      className="w-full bg-customLightGray border-b border-gray-300 p-2 mt-1 focus:outline-none focus:border-blue-500"
+                      className=" bg-customLightGray border-b border-gray-300 p-2 mt-1 focus:outline-none focus:border-blue-500"
                     />
                   </label>
 
@@ -239,7 +197,7 @@ const GetMessage = () => {
                     <input
                       type="text"
                       placeholder="example@xyz.com"
-                      className="w-64 border-b bg-customLightGray  p-2 mt-1 focus:outline-none focus:border-blue-500"
+                      className=" border-b bg-customLightGray  p-2 mt-1 focus:outline-none focus:border-blue-500"
                     />
                   </label>
 
@@ -248,7 +206,7 @@ const GetMessage = () => {
                     <p>
                       Estimated Budget<span className="text-red-600">*</span>
                     </p>
-                    <select className="w-full border-b bg-customLightGray p-2 mt-1 focus:outline-none focus:border-blue-500">
+                    <select className=" border-b bg-customLightGray  mt-5 focus:outline-none focus:border-blue-500">
                       <option value="<5000 USD"> Please Select</option>
                       <option value="<5000 USD"> Above 5000 USD</option>
                       <option value="5000-10000 USD"> 50000-10000 USD</option>
@@ -306,7 +264,7 @@ const GetMessage = () => {
           </div>
 
           {/* button */}
-          <div className="text-center pt-14">
+          <div className="text-center py-10">
             <button
               className="bg-customBlue border border-customBlue rounded-md h-12 w-48
          hover:bg-white transitoin duration-[1.5s] hover:text-customBlue ">
@@ -315,7 +273,7 @@ const GetMessage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 

@@ -4,9 +4,9 @@ const Footer = () => {
   return (
     <div className=" bg-customDarkNavy text-white">
       {/*  Parent div have 4 child div  */}
-      <div className="flex justify-between    pt-10  px-8 ">
+      <div className="grid grid-cols-1 space-y-5 pt-4 lg:grid-cols-3 gap-5 px-8 ">
         {/* First div having Company detail  */}
-        <div className=" ">
+        <div className="flex items-center gap-6 md:grid grid-cols-1 space-y-6 ">
           <div className="h-30 w-30"> Logo </div>
           <div>
             <p className="tracking-tighter font-light text-slate-400 w-[26rem] pt-7">
@@ -20,32 +20,34 @@ const Footer = () => {
         </div>
 
         {/* Second div having services  */}
-        <div className="">
-          <h1 className="text-xl font-semibold">Services</h1>
-          <div className="font-light text-slate-400 pt-7 space-y-3 w-[10rem] ">
-            <p className="hover:text-white duration-[0.2s]">UI UX Design</p>
-            <p className="hover:text-white duration-[0.2s]"> Web Development</p>
-            <p className="hover:text-white duration-[0.2s]">
-              Mobile Development
-            </p>
-            <p className="hover:text-white duration-[0.2s]">
-              Quality Assurance
-            </p>
-            <p className="hover:text-white duration-[0.2s]">MVP Builder</p>
-            <p className="hover:text-white duration-[0.2s]">Dedicated Teams</p>
+        <div className="grid grid-cols-2">
+          <div className="">
+            <h1 className="text-xl font-semibold">Services</h1>
+            <div className="font-light text-slate-400 pt-7 space-y-3 w-[10rem] ">
+              <p className="hover:text-white duration-[0.2s]">UI UX Design</p>
+              <p className="hover:text-white duration-[0.2s]"> Web Development</p>
+              <p className="hover:text-white duration-[0.2s]">
+                Mobile Development
+              </p>
+              <p className="hover:text-white duration-[0.2s]">
+                Quality Assurance
+              </p>
+              <p className="hover:text-white duration-[0.2s]">MVP Builder</p>
+              <p className="hover:text-white duration-[0.2s]">Dedicated Teams</p>
+            </div>
           </div>
-        </div>
 
-        {/* Third div having Quick Links  */}
-        <div className="">
-          <h1 className="text-xl font-semibold">Quick Links</h1>
-          <div className="font-light text-slate-400  pt-7 w-[10rem] space-y-3 ">
-            <p className="hover:text-white duration-[0.2s]">About Us</p>
-            <p className="hover:text-white duration-[0.2s]">Services</p>
-            <p className="hover:text-white duration-[0.2s]">Projects</p>
-            <p className="hover:text-white duration-[0.2s]">Blogs</p>
-            <p className="hover:text-white duration-[0.2s]">Careers</p>
-            <p className="hover:text-white duration-[0.2s]">Contact Us</p>
+          {/* Third div having Quick Links  */}
+          <div className="">
+            <h1 className="text-xl font-semibold">Quick Links</h1>
+            <div className="font-light text-slate-400  pt-7 w-[10rem] space-y-3 ">
+              <p className="hover:text-white duration-[0.2s]">About Us</p>
+              <p className="hover:text-white duration-[0.2s]">Services</p>
+              <p className="hover:text-white duration-[0.2s]">Projects</p>
+              <p className="hover:text-white duration-[0.2s]">Blogs</p>
+              <p className="hover:text-white duration-[0.2s]">Careers</p>
+              <p className="hover:text-white duration-[0.2s]">Contact Us</p>
+            </div>
           </div>
         </div>
 
@@ -71,7 +73,7 @@ const Footer = () => {
             <div className="flex gap-2 w-[13rem] ">
               <img src="./src/assets/images/Location.svg" alt="" />
               <p className="hover:text-white duration-[0.2s]">
-              11133 Shady Trail, Dallas, TX 75229, USA              
+                11133 Shady Trail, Dallas, TX 75229, USA
               </p>
             </div>
           </div>

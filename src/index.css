@@ -3,14 +3,25 @@
 @tailwind utilities;
 
 .service-card {
-    background-image: url('./assets/images/Bg-img.webp');
+  background-image: url("./assets/images/Bg-img.webp");
 }
 
-.team-Bg{
-    background-image: url('./assets/images/.team-Bg');
+.team-Bg {
+  background-image: url("./assets/images/.team-Bg");
 }
 
-.scroll-card{
-    background-image: url('./assets/images/Bg-img.webp');
+.scroll-card {
+  background-image: url("./assets/images/Bg-img.webp");
+  animation: scroll 20s linear infinite;
 }
-
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.scrollbar-hide {
+  scrollbar-width: none;
+}

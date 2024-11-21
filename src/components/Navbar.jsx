@@ -12,7 +12,7 @@ const Navbar = () => {
           logo
         </div>
         {/* Home , about us , services , projects , careers and blogs*/}
-        <div className="flex items-center gap-16">
+        <div className="hidden lg:flex items-center gap-16">
           {" "}
           {/* Home */}
           <div className="space-x-16">
@@ -48,8 +48,14 @@ const Navbar = () => {
             </button>
           </div>
         </div>
+
+        <div className="hamburger group lg:hidden space-y-1 p-2 rounded block cursor-pointer">
+          <div className="bg-customDarkBlue h-1 w-6 rounded transform transition duration-300 ease-in-out group-hover:rotate-45 group-hover:translate-y-2"></div>
+          <div className="bg-customDarkBlue h-1 w-6 rounded transition duration-300 ease-in-out group-hover:opacity-0"></div>
+          <div className="bg-customDarkBlue h-1 w-6 rounded transform transition duration-300 ease-in-out group-hover:-rotate-45 group-hover:-translate-y-2"></div>
+        </div>
       </div>
-    </nav>
+    </nav >
   );
 };
 ///

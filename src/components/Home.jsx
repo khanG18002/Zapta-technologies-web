@@ -9,9 +9,10 @@ import CaseStudies from "./CaseStudies";
 import Awards from "./Awards";
 import GetMessage from "./GetMessage";
 import Apply from "./Apply";
-///
-///wedothis
-///
+import OurOffices from "./OurOffices";
+
+// date: 21 nov 2024
+
 const Home = () => {
   return (
     <div>
@@ -23,8 +24,10 @@ const Home = () => {
       <OurExperts />
       <CaseStudies />
       <Awards />
+      <OurOffices />
       <GetMessage />
       <Apply />
+
     </div>
   );
 };

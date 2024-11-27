@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex items-center gap-6 md:grid grid-cols-1 space-y-6 ">
           <div className="h-30 w-30"> Logo </div>
           <div>
-            <p className="tracking-tighter font-light text-slate-400 w-[26rem] pt-7">
+            <p className="tracking-tighter font-light text-slate-400 pt-7">
               ZAPTA Technologies is a leading software design and development
               company working in HealthCare, FinTech, Education, ERP, eCommerce,
               Compliance Management, Telecommunication, MarketPlace, Logistics

@@ -2,7 +2,7 @@ import React from "react";
 
 const CEOmessage = () => {
   return (
-    <div className=" pt-10 ">
+    <div className=" ">
       <div className=" px-8 py-16 md:flex justify-between items-center  text-white team-Bg   bg-slate-400">
         {/* text  */}
         <div>

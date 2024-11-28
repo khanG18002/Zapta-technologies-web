@@ -5,7 +5,7 @@ const OurServicesText = () => {
     <div>
 
 
-      <div className="px-14 pt-10 md:py-24 text-center">   {/* Div having text only */}
+      <div className="px-14 pt-10 md:py-24 text-center ">   {/* Div having text only */}
         <p className="font-bold md:font-bold text-5xl">
           ZAPTA Premium{" "}
           <span className="text-customBlue">

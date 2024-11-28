@@ -12,7 +12,22 @@
 
 .scroll-card {
   background-image: url("./assets/images/Bg-img.webp");
-  animation: scroll 20s linear infinite;
+  animation: scroll 10s linear infinite;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+
+.scroll-logo {
+  animation: scroll 2s linear infinite;
 }
 @keyframes scroll {
   0% {
